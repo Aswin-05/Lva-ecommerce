@@ -18,8 +18,6 @@ router.post("/register", async (req, res) => {
         } catch (err) {
             res.status(500).json(err);
         }
-    }else{
-        res.status(401).json("Email exists");
     }
 });
 
