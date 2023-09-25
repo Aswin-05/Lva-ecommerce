@@ -10,7 +10,7 @@ const cartRoute = require("./routes/cart")
 const orderRoute = require("./routes/order")
 // const stripeRoute = require("./routes/stripe")
 const razorpayRoute = require("./routes/razorpay")
-const Port = 5000 || process.env.PORT
+const Port = process.env.PORT || 5000
 
 const app =express();
 
